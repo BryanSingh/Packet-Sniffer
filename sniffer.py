@@ -7,7 +7,7 @@ host = "192.168.0.196"
 
 # create a raw socket and bind it to the public interface
 
-if os.name = "nt":
+if os.name == "nt":
 	socket_protocol = socket.IPPROTO_IP
 else:
 	socket_protocol = socket.IPPROTO_IP
